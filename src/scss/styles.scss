@@ -1,0 +1,80 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+/* styles.scss */
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Libre Baskervill';
+    margin: 5px 0 5px 0;
+  
+    .head-name {
+      font-size: 3rem;
+    }
+
+    .head-proffession {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  .company.name,
+  .tec-skills,
+  .soft-skills,
+  .languaje-skills,
+  .experience,
+  .awards,
+  .education,
+  .languages {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    
+  }
+  
+  .job {
+    margin: 5px 0 5px 0;
+    font-size: 18px;
+
+    .job-title {
+      font-size: 16px;
+    }
+  
+    h3 {
+      font-size: 14px;
+      margin: 10px 0;
+    }
+  
+    .dates {
+      margin-bottom: 5px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  
+    .description {
+      margin: 5px 0;
+      font-weight: 350;
+    }
+  }
+  
+  .school {
+    margin-bottom: 10px;
+  
+    h3 {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+
+  }
+
+  .collapse-a {
+    &:not(.show) {
+      display: none;
+    }
+  }
